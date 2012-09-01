@@ -1,0 +1,12 @@
+1 bat
+2 cat
+3 scat
+4 batch
+5 rat
+6 hat
+7 hatch
+8 bot
+9 hot
+10 bath
+11 pot
+12 catch
