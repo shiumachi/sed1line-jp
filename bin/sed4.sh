@@ -26,3 +26,8 @@ echo "# bin/sed1.sh も参照のこと"
 echo "---------------------------"
 sed '/cat.*/{x;p;x;}' ${SRC_FILE}
 echo "---------------------------"
+echo "sed '/cat.*/{x;p;x;G;}' ${SRC_FILE}"
+echo '# insert a blank line above and below every line which matches "regex"'
+echo "# 正規表現にマッチした行の上と下に空行を追加する"
+echo "---------------------------"
+sed '/cat.*/{x;p;x;G;}' ${SRC_FILE}
